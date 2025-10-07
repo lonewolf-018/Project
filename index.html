@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dynamic Image Slider Website</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto:400&display=swap" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Stunning Dynamic Image Slider</h1>
+    <nav class="site-nav">
+      <a href="#">Home</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="slider-section">
+      <h2 class="slider-title">Discover Visual Stories</h2>
+      <p class="slider-description">
+        Explore mesmerizing landscapes and moments. Navigate, swipe, or relax and let the images tell their story.
+      </p>
+      <div class="glassmorphic-wrapper">
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80');">
+              <div class="caption">Adventure Awaits</div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80');">
+              <div class="caption">Feel the Nature</div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=800&q=80');">
+              <div class="caption">Life in Colors</div>
+            </div>
+          </div>
+          <div class="controls">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+          <div class="dots"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
